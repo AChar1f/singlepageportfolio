@@ -7,7 +7,11 @@
             <div class="col">
                 <div id="details">
                     <h1 class="display-1">Abdurahmaan Charif</h1>
-                    <span>{{ jobTitle[0].role }}</span>
+                    <p v-if="jobTitle?.length"><span>{{ jobTitle[2]?.role }}</span></p>
+                    <div v-else class="d-flex justify-content-center">
+                    <div class="spinner-border" role="status">
+                    </div>
+</div>
                 </div>
             </div>
         </div>
@@ -16,10 +20,12 @@
 
 <script setup>
 import {computed, onMounted} from 'vue'
+import { useStore } from 'vuex'
 
-const jobTitle = computed(() => this.$store.state.jobTitle)
+const store = useStore()
+const jobTitle = computed(() => store.state.jobTitle)
 onMounted(() => {
-    this.$store.dispatch('fetchJobTitle')
+    store.dispatch('fetchJobTitle')
 })
 // export default {  // used in options currently composition is running
 //     name: 'LandingSection'
