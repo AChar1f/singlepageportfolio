@@ -3,7 +3,9 @@
 /* Universal Selector */
 
 /* Custom Variables */
-
+::-webkit-scrollbar{
+    display: none;
+}
 /* Select all images */
 img {
     aspect-ratio: 1;
@@ -37,3 +39,9 @@ img[alt='logo'] {
   nav a.router-link-exact-active {
     color: #42b983;
   }
+
+  /* wrapper */
+:is(.wrapper) {
+    display: grid;
+    grid-template-rows: auto minmax(100dvh, 100%) auto;
+}
