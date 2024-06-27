@@ -19,5 +19,6 @@ export default {
 .card {
   width: 18rem;
   padding-top: 7px;
+  background-color: silver;
 }
 </style>

@@ -112,8 +112,8 @@ export default createStore({
     },
     async fetchTestimonials(context){
       try {
-        let {testimonials} =  await (await axios.get(portfolioURL)).data
-        context.commit('setTestimonials', testimonials)
+        let {Testimonials} =  await (await axios.get(portfolioURL)).data
+        context.commit('setTestimonials', Testimonials)
       } 
       catch (e) {
         Swal.fire ({
