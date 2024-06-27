@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg sticky-top">
   <div class="container-fluid">
     <router-link class="navbar-brand" to="/"><img class="img-fluid"
           src="https://achar1f.github.io/projectimages/images/Logo1-removebg-preview (1).png" alt="logo"
