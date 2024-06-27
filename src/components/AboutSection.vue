@@ -6,7 +6,7 @@
                 <img src="https://achar1f.github.io/projectimages/images/me.png" loading="lazy" class="img-fluid rounded-pill"/>
                 <p>
                 {{ about[0]?.part1 }}
-                </p>
+                </p>            
             </div>
         </div>
         
