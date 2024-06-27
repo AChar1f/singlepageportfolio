@@ -1,6 +1,6 @@
 <template>
-    <div class="container-fluid">
-        <div class="row">
+    <div class="container">
+        <div class="row pt-5">
             <h2 class="display-2">Projects</h2>
         </div>
         <div class="row gap-3 mb-3 justify-content-start">
@@ -11,8 +11,8 @@
                 <template #cardBody>
                     <h5>{{ project.projectName }}</h5>
                     <p>{{ project.description }}</p>
-                    <a :href="project.gitHub"><button type="button" class="btn btn-success">Github</button></a>
-                    <a :href="project.vercel"><button type ="button" class="btn btn-success">Vercel</button></a>
+                    <a :href="project.gitHub" target="_blank"><button type="button" class="btn">Github</button></a>
+                    <a :href="project.vercel" target="_blank"><button type ="button" class="btn">Vercel</button></a>
                 </template>
             </Card>
         </div>
@@ -35,5 +35,7 @@ onMounted(() => {
 <style scoped>
     .btn{
         margin-inline: 0.5rem;
+        background-color: darkslategrey;
+        color: whitesmoke;
     }
 </style>
