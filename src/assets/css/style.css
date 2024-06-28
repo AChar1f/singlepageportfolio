@@ -9,7 +9,7 @@
 /* Select all images */
 img {
     aspect-ratio: 1;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 }
 
@@ -53,9 +53,15 @@ section{
   scroll-margin-block: 7rem;
 }
 
+/* media queries */
 @media screen and (width < 400px) {
   :is(main.container-fluid) {
     width: 100dvw;
   }
   
+}
+@media screen and (width < 768px) {
+  #landing .row{
+    display: block;
+  }
 }

@@ -21,4 +21,7 @@ export default {
   padding-top: 7px;
   background-color: silver;
 }
+.card-header{
+  background-color: darkslategray;
+}
 </style>

@@ -9,12 +9,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto px-3">
-        <a class="nav-link mx-3" aria-current="page" href="/">Home</a>
-        <a class="nav-link mx-3" href="#about">About</a>
-        <a class="nav-link mx-3" href="#resume">Resume</a>
-        <a class="nav-link mx-3" href="#projects">Projects</a>
-        <a class="nav-link mx-3" href="#testimonials">Testimonials</a>
-        <a class="nav-link mx-3" href="#reachMe">Reach Me</a>
+        <a class="nav-link mx-3" aria-current="page" href="/"><i class="bi bi-house">Home</i></a>
+        <a class="nav-link mx-3" href="#about"><i class="bi bi-file-earmark-person">About</i></a>
+        <a class="nav-link mx-3" href="#resume"><i class="bi bi-journal-bookmark-fill">Resume</i></a>
+        <a class="nav-link mx-3" href="#projects"><i class="bi bi-clipboard2-data">Projects</i></a>
+        <a class="nav-link mx-3" href="#testimonials"><i class="bi bi-chat-square-quote-fill">Testimonials</i></a>
+        <a class="nav-link mx-3" href="#reachMe"><i class="bi bi-person-lines-fill">Reach Me</i></a>
       </div>
     </div>
   </div>
