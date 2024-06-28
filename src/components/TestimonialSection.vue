@@ -3,7 +3,7 @@
         <div class="row">
             <h2 class="display-2">Testimonials</h2>
         </div>
-        <div class="row justify-content-start gap-3">
+        <div class="row justify-content-center gap-3 mb-3">
             <Card v-for="(testimonial, id) in testimonials" :key="id">
                 <template #cardHeader>
                     <img class="img-fluid" :src="testimonial.img_url" :alt="testimonial.name" loading="lazy">

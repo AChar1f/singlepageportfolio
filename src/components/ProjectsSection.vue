@@ -3,7 +3,7 @@
         <div class="row pt-5">
             <h2 class="display-2">Projects</h2>
         </div>
-        <div class="row gap-3 mb-3 justify-content-start">
+        <div class="row gap-3 mb-3 justify-content-center">
             <Card v-for="(project, id) in projects" :key="id">
                 <template #cardHeader>
                     <img class="img-fluid" :src="project.img_url" :alt="project.projectName" loading="lazy">
