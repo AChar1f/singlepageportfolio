@@ -3,7 +3,7 @@
         <div class="row  text align-items-center">
             <h2 class="display-2">About</h2>
             <div v-if="about?.length" class="col">
-                <img src="https://achar1f.github.io/projectimages/images/me.png" loading="lazy" class="img-fluid rounded-pill"/>
+                <img src="https://achar1f.github.io/projectimages/images/me.png" loading="lazy" class="img-fluid "/>
                 <p>
                 {{ about[0]?.part1 }}
                 </p>            
